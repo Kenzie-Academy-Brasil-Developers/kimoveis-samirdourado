@@ -1,3 +1,6 @@
+yarn typeorm migration:generate src/migrations/createMovie -d src/data-source.ts <br>
+yarn typeorm migration:run -d src/data-source.ts
+
 # 🏁 Projeto Final: KImóveis - TypeORM com Relacionamentos
 
 Para inciar este projeto, é necessário instalar as dependências, que serão utilizadas nos testes. Portanto utilize o comando abaixo para instalar tais dependências:
